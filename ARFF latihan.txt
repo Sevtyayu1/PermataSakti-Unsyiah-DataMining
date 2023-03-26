@@ -1,0 +1,13 @@
+@relation data.symbolic
+
+@attribute age {<=30, 30...40, >40}
+@attribute income {high, medium, low}
+@attribute student {no, yes}
+@attribute credit_rating {fair, excellent}
+@attribute buys_computer {no, yes}
+
+@data
+<=30, high, no, fair, no
+<=30, high, no, excellent, no
+30...40, high, no, fair, yes
+>40, medium, no, fair, yes
